@@ -109,6 +109,10 @@
 		height: 100%;
 	}
 
+	.body_two {
+		padding: 50%;
+	}
+
 	body {
 		height: 100%;
 		/* background-color: #ffffff; */
@@ -120,7 +124,8 @@
 		background-repeat: repeat,			no-repeat,			no-repeat;
 		background-size: 100px 100px, cover,				cover;
 		background-position: top left,		center center,		bottom center;
-		background-attachment: fixed,			fixed,				fixed; */
+		background-attachment: fixed,			fixed,				fixed;
+		/* padding-bottom: 15%; */
 	}
 
 		body:after {
@@ -161,6 +166,7 @@
 		line-height: 2;
 		letter-spacing: 0.2em;
 		text-transform: uppercase;
+		padding: 10%
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -897,7 +903,7 @@
 		opacity: 0.95;
 		position: relative;
 		text-align: center;
-		width: 27em;
+		width: 40em;
 	}
 
 		#main .avatar {
